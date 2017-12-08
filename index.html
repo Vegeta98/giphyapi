@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Giphy API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+</head>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" target="_blank" href="https://developers.giphy.com/">
+                    <img id="brand" alt="Giphy Homework" src="assets/images/giphy-powered-by-100px.gif">
+                </a>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Put text here">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" id="add-query" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12" id="button-column">
+            <div class="button-landing">
+                <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row" id="image-row">
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+
+</html>
